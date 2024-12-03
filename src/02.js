@@ -37,17 +37,6 @@ for (let i = 0; i < lines.length; i++) {
     count++;
     countSplice++;
   } else {
-    // console.log({ ascending, descending, numbers });
-    // if (ascending || descending) {
-    //   const safeMaxDisance = numbers.reduce((acc, el, index, arr) => {
-    //     if (index === 0) return acc;
-    //     const distance = Math.abs(arr[index - 1] - el);
-    //     return Math.max(acc, distance);
-    //   }, 0);
-    //   if (safeMaxDisance !== 0 && safeMaxDisance <= 3) {
-    //     countSplice++;
-    //   }
-    // } else {
     // provo a fare lo splice per vedere se riesco a risolvere il problema eliminando il primo numero che da eccezione
     const numbersCopy = [...numbers];
 
